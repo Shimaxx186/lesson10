@@ -19,8 +19,10 @@ main {
 
 .blog-visual {
   width:90%;
-  margin: 0 10px;
-  padding-bottom:20px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  /* margin: 0 10px; */
 }
 
 .blog-visual-content {
@@ -36,10 +38,9 @@ main {
 }
 
 .blog-item {
-  padding-bottom:20px;
-  margin-bottom:20px;
+  display: inline-block;
+  margin-left: 20px;
   background-color:rgb(158, 154, 154);
-
 }
 
 .blog-image {
@@ -48,20 +49,7 @@ main {
   padding:5px;
 }
 
-.blog-visual1 {
-  width: 90%;
-  background-color:blue;
-  margin: 0 auto;
-}
-
-.blog-visual-content1 {
-  width: 30px;
-  height: 25px;
-  background-color: orange;
-}
-
 footer {
-  padding-top:50px;
   height: 50px;
   background-color: gray;
 }
@@ -77,10 +65,15 @@ header {
 main {
 width: 100%;
 display: block;
+padding-bottom: 30px;
 }
 
 .blog {
   width: 100%;
   margin: 0;
 }
+
+.blog-visual {
+  padding-bottom: 20px;
+  }
 }
