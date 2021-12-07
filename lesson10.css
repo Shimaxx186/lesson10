@@ -11,10 +11,9 @@ header {
 }
 
 main {
-  padding:50px 20px;
   display: flex;
   flex-wrap: no-wrap;
-
+  margin:50px 20px;
 }
 
 .blog-visual {
@@ -63,9 +62,8 @@ header {
 }
 
 main {
-width: 100%;
+width: 90%;
 display: block;
-padding-bottom: 30px;
 }
 
 .blog {
@@ -74,6 +72,11 @@ padding-bottom: 30px;
 }
 
 .blog-visual {
-  padding-bottom: 20px;
+  width:90%;
+  margin-bottom: 20px;
   }
+
+.blog-item {
+  margin-left: 0;
+}
 }
